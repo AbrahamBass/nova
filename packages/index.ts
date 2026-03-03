@@ -2,6 +2,8 @@ export { Auth } from "./auth/jwt";
 export { RequiresAuth, Scopes } from "./auth/decorators";
 export { inject, optional } from "inversify";
 
+export { MultipartFile } from "@fastify/multipart";
+
 export { NovaFactory } from "./core/nova";
 export {
   Body,
