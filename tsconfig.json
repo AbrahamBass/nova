@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDir": "./packages",
+    "outDir": "./dist",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "ES2022",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+  },
+  "include": ["packages"],
+  "ts-node": {
+    "experimentalSpecifierResolution": "node",
+  },
+}
