@@ -4,6 +4,8 @@ export { inject, optional } from "inversify";
 
 export { MultipartFile } from "@fastify/multipart";
 
+export { Option } from "./fallback/option";
+
 export { NovaFactory } from "./core/nova";
 export {
   Body,
